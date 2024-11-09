@@ -1,0 +1,56 @@
+
+.image-container {
+    position: fixed; 
+    top: 100px; 
+    left: 0;
+    width: 150px; 
+    height: auto;
+    z-index: 999; 
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-image {
+    width: 100%; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.image-container:hover .logo-image {
+    transform: scale(1.2); 
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-left: 170px; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: #2F4F4F;
+    color: white;
+}
